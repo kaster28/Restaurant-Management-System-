@@ -1,0 +1,13 @@
+<?php
+session_start();
+if(!isset($_SESSION['user'])){
+	$_SESSION['user']="";//默认为未登录
+	$_SESSION['access']="";
+	$_SESSION['location']="";
+	$_SESSION['store']="";
+}
+$Session_user=$_SESSION['user'];
+$Session_access=$_SESSION['access'];
+$Session_location=$_SESSION['location'];
+$Session_store=$_SESSION['store'];
+?>

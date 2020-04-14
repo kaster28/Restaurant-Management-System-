@@ -1,0 +1,178 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+.highlight{
+	font-size: 18px;
+	color: #F00;
+	font-weight: bold;
+}
+
+.menu{
+    text-align: center;
+	width: 400px;	
+}
+
+.menu img{
+	width: 300px;
+	height: 200px;
+	border: 5px dotted brown;
+	margin-bottom: 20px;
+}
+
+.menu img:hover{
+	opacity:0.7;
+	filter:"alpha(opacity=50)";
+    -ms-filter:"alpha(opacity=50)";
+}
+
+.food_name{
+	font-size: 20px;
+	font-weight: bold; 
+}
+#title{
+	width: 500px;
+	height: 100px;
+	color: white;
+	text-align: center;
+	text-shadow: 3px 3px black;
+	font-size: 90px;
+	font-style: italic;
+	position: relative;
+	top:80px;
+	left:400px;
+}
+#top_part{
+	width: 100%;
+	height: 300px;
+	background-image: url(../img/ref_head.jpeg);
+	background-size: cover;
+	background-position: 50% 60%;
+}
+#nav_bar{
+	width: 100%;
+}
+#nav_bar ul{
+	width: 100%;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+
+#nav_bar li{
+	float: left;
+	display: inline;
+
+}
+
+#nav_bar a:link{
+	line-height: 40px;
+	padding: 0px;
+	display: inline-block;
+    width: 412px;
+    height: 40px;
+    font-weight:bold;
+    font-size: 20px;
+    color:#FFFFFF;
+    background-color:#F00;
+    text-align:center;
+    padding:4px;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+
+#nav_bar a:hover{
+	background-color:#cc0000;
+}
+
+#middle_part{
+	width: 100%;
+	height: 400px;
+
+}
+
+#ref_introduce{
+	float: left;
+	width: 400px;
+	height: 300px;
+	position: relative;
+	top:80px;
+	left: 200px;
+}
+#google{
+	position: relative;
+	float: right;
+	top: 100px;
+	right: 50px;
+}
+#map{
+	width: 400px;
+	height: 200px;
+	border: 0px;
+}
+#map_d{
+	font-size: 30px;
+	color: black;
+	font-family: impact;
+	margin-bottom: 10px;
+}
+
+#bottom_part{
+	width: 100%;
+	height:auto;
+	margin-top: 30px;
+}
+
+#bottom_head{
+	width: 100%;
+	height: 200px;
+	text-align: center;
+}
+
+#bottom_head p{
+	font-size: 30px;
+	color: black;
+	font-family: impact;
+}
+
+#menu{
+	margin-top: 80px;
+	width: 100%;
+    height: auto;
+	
+}
+#operator{
+	width:30px;
+	height:32px;
+	text-align:center;
+}
+#bottom{
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	line-height: 50px;
+	color: white;
+}
+#Cart_button{
+	    display: inline-block;
+	    font-size: 15px;
+	    font-weight: 1000;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    color: rgb(255, 255, 255);
+    background-color: rgb(233, 23, 13);
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 2px 5px 5px black;
+    
+    font-family: ????;
+    border-style: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+}
+
+#Cart_button:hover{
+	background-color: rgb(210, 34, 34);
+	box-shadow: 1px 3px 3px black;
+}

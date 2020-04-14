@@ -1,0 +1,63 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+h1{
+    padding-top: 65px;
+    font-size: 50px;
+    font-style: italic;	
+}
+td{
+	text-align: center;
+	padding: 5px;
+
+}
+
+span{
+	color: red;
+}
+
+fieldset{width:600px;}
+.error{color:red;}
+
+#top_user{
+	background-image:url(../img/registration-top.jpg);
+	width:100%;
+	height:164px;
+	background-repeat:no-repeat;
+	background-size:cover;
+	text-shadow:#f3f3f3 1px 1px 0px, #b2b2b2 1px 2px 0;
+	text-align:center;
+	background-position: 0px -305px;
+}
+
+#top-line{
+	background-color:#D0D0D0;
+}
+
+#register_submit_button{
+	height: 30px;
+	width: 100px;
+	text-align: center;
+	font-size: large;
+	background-color:yellow;
+}
+#register_submit_button:hover{
+background-color:orange;
+box-shadow: 2px 2px black;
+
+}
+
+#attention{
+	height: 50px;
+	width: 100%;
+	text-align: center;	
+}
+
+#bottom{
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	line-height: 50px;
+	color: white;
+}

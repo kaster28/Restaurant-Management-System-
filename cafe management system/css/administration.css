@@ -1,0 +1,25 @@
+#left_bar{
+	width: 200px;
+}
+
+#left_bar table{
+	width: 200px;
+	background-color: black;
+}
+#left_bar td{
+	text-align: center;
+	height: 50px;
+}
+#left_bar a{
+	font-size: 20px;
+	font-weight: 500;
+	color:white;
+	text-decoration: none;
+}
+#left_bar a:hover{
+	color: yellow;
+}
+
+#iFrame1{
+	position:absolute; left:250px; top:200px; z-index:18
+}

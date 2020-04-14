@@ -1,0 +1,133 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.text{
+	width: 250px;
+	height: 30px;
+	margin-top: 10px;
+}
+
+.cafe{
+	text-align: center;
+	width: 400px;	
+
+}
+
+.cafe img{
+	border: 5px dotted brown;
+	height: 200px;
+	width: 300px;
+}
+
+.cafe img:hover{
+    opacity:0.7;
+	filter:"alpha(opacity=50)";
+    -ms-filter:"alpha(opacity=50)";
+}
+#top_part{
+	border: 0px;
+	width: 100%;
+	height: 600px;
+	background-image: url(../img/index_top.jpg);
+	background-size: cover;
+	background-position: center[200];
+
+}
+#top_bar{
+	width: 100%;
+}
+#logo{
+	margin:10px 10px;
+	float: left;
+}
+
+#logo a{
+	text-decoration: none;
+	font-size: 60px;
+	text-shadow: 5px 5px black;
+	font-family: impact;
+	color:gold;
+}
+#register{
+	width: 300px;
+	height: 50px;
+	margin-top: 15px;
+	text-align: center;
+	font-size: large;
+	background-color: black;
+	color: yellow;
+	float:right;
+}
+
+#register div{
+	margin-top: 12px;
+}
+
+#register div a{
+	text-decoration: none;
+	color:white;
+	font-family: impact;
+	font-size:20px;
+}
+
+#register:hover{
+	background-color: grey;	
+}
+
+#sign{
+	float: right;
+	border: 5px solid black;
+	position: relative;
+	top:200px;
+	left: 250px;
+	width: 300px;
+	height: 300px;
+	background-color: white;
+	text-align: center;
+}
+#sign_top{
+	height: 50px;
+	color: white;
+	font-size: 25px;
+	text-shadow: 2px 2px black;
+	font-family: impact;
+	background-color: red;
+	line-height: 50px;
+}
+#welcome{
+	text-shadow: 3px 3px black;
+	font-size: 40px;
+	color: white;
+	font-family: impact;
+	float: left;
+	width: 450px;
+	height: 200px;
+	position: relative;
+	top:220px;
+	left: -50px;
+	
+}
+
+#bottom_part{
+	width: 100%;
+	height: 400px;
+}
+
+#description{
+	width: 100%;
+	height: 100px;
+	font-size: 30px;
+	font-family: impact;
+	color: black;
+	text-align: center;
+	line-height: 100px;
+}
+
+#bottom{
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	line-height: 50px;
+	color: white;
+}
