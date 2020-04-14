@@ -1,4 +1,13 @@
-Staffs credential:
+# Restaurant-Management-System-
+A web system using html5, css, js, php and mysql.
+There are three user types for this project: Director and Manager can use the management system and make change on the products,
+but customers can only visit the shop and order food.
+
+
+Staffs credential (Accounts for testing):
+*access means operation priviledge, 1>2>3
+*There are manager accounts for 3 cafes you can use, each of them can only operate items in specific cafe
+
 Director: username:kaster password:123Cf# access:1 cardnumber:1111111111111111
 Ref Manager: username:Josh password:123Cf# access:2 cardnumber:1027541938475493
 Lazenby Manager: username:Bill password:123Cf# access:2 cardnumber:1027541938475493
@@ -21,4 +30,3 @@ can afford the food. After you made a payment, you can see the order details.
 
 *PS:every logined member can manage their account by clicking the management button on "main_page.php".
 cafe pages names:"ref menu.php","lazenby menu.php","trade-table menu.php"
-*If the file or link can't be opened, you can see the same work on "https://alacritas.cis.utas.edu.au/~czhao10/cafe%20459793/"
